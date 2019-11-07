@@ -379,10 +379,16 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
+  // Creality CR-10s with e3d v6 and Prusa MK3s hotend parts and silicone sock
+  // 200 degrees, fan running
+  #define DEFAULT_Kp 34.68
+  #define DEFAULT_Ki 5.10
+  #define DEFAULT_Kd 58.94
+  
   // Ultimaker
-  #define DEFAULT_Kp 22.2
-  #define DEFAULT_Ki 1.08
-  #define DEFAULT_Kd 114
+//  #define DEFAULT_Kp 22.2
+//  #define DEFAULT_Ki 1.08
+//  #define DEFAULT_Kd 114
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
